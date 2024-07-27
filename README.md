@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# React UI Components with Tailwind CSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project showcases three distinct React components, each designed with Tailwind CSS for modern UI practices. The components include a carousel slider with navigation dots, a form with real-time input validation, and a scrollable layout for avatars and images. This project is optimized for mobile view and demonstrates responsive design and user interaction techniques.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Components](#components)
+  - [1. Carousel Slider](#carousel-slider)
+  - [2. Form with Validation](#form-with-validation)
+  - [3. Scrollable Avatars and Images](#scrollable-avatars-and-images)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project includes three components designed to provide a comprehensive user interface experience. Each component showcases different aspects of React and Tailwind CSS integration:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Carousel Slider**: Displays a horizontally scrolling carousel with navigation dots and a static button.
+2. **Form with Validation**: Features a form with email and password inputs that validate in real-time.
+3. **Scrollable Avatars and Images**: Demonstrates horizontal and vertical scrolling with hidden scrollbars for a mobile-friendly design.
 
-### `npm test`
+## Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Carousel Slider
 
-### `npm run build`
+- **Design**: The carousel displays three slides, showing one slide at a time. Navigation is provided by dots below the carousel, allowing users to jump to a specific slide. A button placed below the carousel remains static while the slides change.
+- **Features**:
+  - Navigation dots for slide selection.
+  - Static button below the carousel.
+  - Responsive layout and styling with Tailwind CSS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Form with Validation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Design**: The form includes two input fields for email and password. Input validation occurs in real-time, highlighting fields with red borders for errors and green borders for valid inputs.
+- **Features**:
+  - Real-time validation for email and password.
+  - Visual feedback with border color changes based on validation results.
+  - Responsive design and styling with Tailwind CSS.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. Scrollable Avatars and Images
 
-### `npm run eject`
+- **Design**: This component features a horizontally scrollable section for avatars and a vertically scrollable section for images. The scrollbars are hidden for a cleaner mobile view.
+- **Features**:
+  - Horizontal scrolling for avatar images.
+  - Vertical scrolling for content images.
+  - Hidden scrollbars for a more polished mobile interface.
+  - Tailwind CSS classes used for styling and layout.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To set up this project, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the Repository**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   git clone https://github.com/naziranwer/zygal_task.git
+   cd zygal_task
+   ```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. **Install Dependencies**
+3. **Start the Development Server**
