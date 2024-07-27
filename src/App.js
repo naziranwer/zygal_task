@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import CarouselComponent from "./components/CarouselComponent";
+import ScrollComponent from "./components/ScrollComponent";
+import FormComponent from "./components/FormComponent";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container p-4">
+      <div className="carousel-section mb-8">
+        <CarouselComponent />
+      </div>
+
+      <div className="input-section mb-8">
+        <FormComponent />
+      </div>
+      <div className="scroll-section">
+        <ScrollComponent />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
